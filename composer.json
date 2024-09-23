@@ -1,0 +1,27 @@
+{
+  "name": "hadri/stats",
+  "description": "lib de stats",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Hadri\\Stats\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "BlackPigCompany",
+      "email": "86426768+BlackPigCompany@users.noreply.github.com"
+    }
+  ],
+  "require-dev": {
+    "pestphp/pest": "^3.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/pest"
+  }
+}
